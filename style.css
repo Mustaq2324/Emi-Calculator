@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.help-ico{
+    display: flex;
+}
+.navbar-text{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.navbar-text img{
+    width: 150px;
+}
+.sidebar{
+    top: 13%;
+    left: 0%;
+    position: absolute;
+    background: white;
+    height: 660px;
+    width: 240px;
+}
+.sidebar-items li{
+    padding:  10px;
+    list-style: none;
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+}
+.sidebar-items li span{
+    margin: 0px 5px;
+}
+.blue-hover{
+    background: #8DD4E8;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+.container{
+    position: absolute;
+    left: 12rem;
+    top: 4rem;
+    height: 670px;
+    width: 100%;
+    padding: 20px 30px;
+    background-color:#f5f5f8;
+}
+.emi-title p{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+   
+}
+.emi-title .underline{
+   display: flex;
+   margin: 2px 4px;
+}
+.underline .line-1{
+    width: 100px;
+    height: 3px;
+    background-color: grey;
+}
+.underline .line-2{
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-box{
+    display: grid;
+    padding: 30px 10px;
+    column-gap: 20px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+  
+}
+.label{
+    color: #cbccce;
+}
+.box{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    padding: 10px;
+   
+}
+.box input{
+    width: 250px;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color:#b0b1b3;
+    border: none;
+   outline: none;
+   background-color: transparent;
+}
+.box span{
+    color:#b0b1b3;
+}
+.title{
+    
+    font-weight: bolder;
+}
+.month-year{
+    margin:45px 10px;
+    padding: 0px 20px;
+}
+.month-year label{
+   padding: 20px;
+    font-size: 15px;
+
+}
+.button button{
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 70px;
+    background-color: #19b4d6;
+}
+.button button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    background: wheat;
+}
+.result{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-right: 200px;
+}
+.result div{
+    margin: 20px 20px;
+}
+.amount-head{
+    color: #c7c7c7;
+}
+.values{
+    margin: 5px 0px;
+    color: #394558
+}
